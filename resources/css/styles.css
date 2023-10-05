@@ -1,0 +1,62 @@
+
+.barranavegacion {
+    background-color: rgb(56, 54, 54);
+}
+
+.nav-link:hover {
+    color: whitesmoke !important;
+}
+
+.tickets {
+    color: rgb(79, 151, 79);
+
+}
+
+   
+.carrusel{
+    position: relative;
+    z-index: -1;
+}
+ 
+.carousel-item > img  {
+    max-block-size:  450px; ;
+    width: 100%;
+    background-size: contain;
+    filter: brightness(48%);
+}
+.articulo {
+    position: absolute;
+    display: inline-block;
+    color: whitesmoke;
+    z-index: 1;
+    font-display:block;
+    font-size: medium;
+    text-align: end;
+    margin-left: 45%;
+    margin-inline-end: 10%;
+    margin-top: 10%;
+    
+}
+
+#titulocarrusel {
+    font-size: xx-large;
+}
+
+.botones {
+    display: flex;
+    justify-content: end;
+}
+
+.btn-outline-light {
+    border-color: gray;
+    color: white;
+}
+
+.botones>a:hover{
+    background-color:rgb(7, 166, 7);
+    color: white;
+}
+
+.titulo-gral>span {
+    font-weight: 500;
+}
