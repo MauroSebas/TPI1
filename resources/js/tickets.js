@@ -1,4 +1,5 @@
 // Valor del ticket
+
 const ticket = 200;
 
 // definir los descuentos
